@@ -40,7 +40,7 @@ class Solver
       end
     end
   end
-/Add test for reverse method
+# Add test for reverse method
 describe "#reverse" do
     it "reverses the input string" do
       solver = Solver.new
