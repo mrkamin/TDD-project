@@ -46,6 +46,8 @@
 
 - Add A Class Solver.
 - Add A Method Factorial.
+- Add A Method reverse.
+- Add A Method fizzbuzz.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,7 +129,7 @@ To run tests, run the following command:
 
 <!-- > Describe 1 - 3 features you will add to the project. -->
 
-- Add a Method Called reverse.
+- Add A test for each method.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
