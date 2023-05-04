@@ -14,7 +14,7 @@ class Solver
       end
   
     def reverse(word)
-      # your code here
+      # word.reverse
     end
   
     def fizzbuzz(n)
