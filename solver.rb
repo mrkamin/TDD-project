@@ -2,8 +2,16 @@ require 'RSpec/autorun'
 
 class Solver
     def factorial(n)
-      # your code here
-    end
+        if n < 0
+          raise ArgumentError, "Argument must be a positive integer"
+        end
+    
+        result = 1
+        for i in 1..n
+          result *= i
+        end
+        result
+      end
   
     def reverse(word)
       # your code here
