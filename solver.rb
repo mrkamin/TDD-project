@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require 'RSpec/autorun'
 
 # A class that provides methods to solve various problems
@@ -52,13 +50,11 @@ RSpec.describe Solver do
   end
 end
 # Add test for reverse method
-# rubocop:disable Metrics/BlockLength
 describe '#reverse' do
   it 'reverses the input string' do
     solver = Solver.new
     expect(solver.reverse('hello')).to eq('olleh')
   end
-  # rubocop:enable Metrics/BlockLength
   # Add a test for Fizzbuzz metode
   describe '#fizzbuzz' do
     it "returns 'fizz' when the input is divisible by 3" do
