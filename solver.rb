@@ -40,4 +40,11 @@ class Solver
       end
     end
   end
+/Add test for reverse method
+describe "#reverse" do
+    it "reverses the input string" do
+      solver = Solver.new
+      expect(solver.reverse("hello")).to eq("olleh")
+    end
+  end
   
